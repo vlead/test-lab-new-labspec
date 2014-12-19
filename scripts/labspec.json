@@ -1,6 +1,12 @@
 {
     "lab": {
       "description": {
+            "id": "",
+            "name": "",
+            "status": "",
+            "type": ""
+            "integration_level": 0,
+            "server-side": true,
             "developer": [
                 {
                     "contact": {
@@ -16,32 +22,9 @@
                     "role": "",
                     "title": "",
                     "web": ""
-                },
-                {
-                    "contact": {
-                        "alternate_email": "",
-                        "email": "",
-                        "mobile_number": "",
-                        "office_number": ""
-                    },
-                    "department": "",
-                    "institute": "",
-                    "name": "",
-                    "organization": "",
-                    "role": "",
-                    "title": "",
-                    "web": ""
                 }
             ],
-            "discipline": [
-                ""
-            ],
-            "id": "",
-            "integration_level": 0,
-            "name": "",
-            "server-side": true,
-            "status": "",
-            "type": ""
+            "discipline": [""],
         },
         "build_requirements": {
             "platform": {
@@ -65,22 +48,15 @@
                 "hosting": "",
                 "installer": [""],
                 "lab_actions": {
-                    "backup": [
-                    ],
+                    "backup": [],
                     "clean": [],
                     "init": [""],
                     "pause": [],
                     "publish": [],
-                    "restore": [
-                        "restore"
-                    ],
+                    "restore": ["restore"],
                     "resume": [],
-                    "shutdown": [
-                        ""
-                    ],
-                    "start": [
-                        ""
-                    ],
+                    "shutdown": [""],
+                    "start": [""],
                     "stats": [],
                     "stop": []
                 },
