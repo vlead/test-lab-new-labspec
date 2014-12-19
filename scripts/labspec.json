@@ -3,8 +3,9 @@
       "description": {
             "id": "",
             "name": "",
+            "discipline": [""],
             "status": "",
-            "type": ""
+            "type": "",
             "integration_level": 0,
             "server-side": true,
             "developer": [
@@ -23,14 +24,13 @@
                     "title": "",
                     "web": ""
                 }
-            ],
-            "discipline": [""],
+            ]
         },
         "build_requirements": {
             "platform": {
                 "arch": "",
                 "build_steps": {
-                    "build": [""],
+                    "build": ["make -C ../src"],
                     "configure": [],
                     "post_build": [],
                     "pre_build": [],
