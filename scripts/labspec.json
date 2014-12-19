@@ -1,0 +1,101 @@
+{
+    "lab": {
+        "build_requirements": {
+            "platform": {
+                "arch": "",
+                "build_steps": {
+                    "build": [""],
+                    "configure": [],
+                    "post_build": [],
+                    "pre_build": [],
+                    "status": []
+                },
+                "installer": [],
+                "os": "ubuntu",
+                "osVersion": "12",
+                "service_pack": ""
+            }
+        },
+        "runtime_requirements": {
+            "platform": {
+                "arch": "",
+                "hosting": "",
+                "installer": [""],
+                "lab_actions": {
+                    "backup": [
+                    ],
+                    "clean": [],
+                    "init": [""],
+                    "pause": [],
+                    "publish": [],
+                    "restore": [
+                        "restore"
+                    ],
+                    "resume": [],
+                    "shutdown": [
+                        ""
+                    ],
+                    "start": [
+                        ""
+                    ],
+                    "stats": [],
+                    "stop": []
+                },
+                "memory": {
+                    "max_required": "",
+                    "min_required": ""
+                },
+                "os": "ubuntu",
+                "osVersion": "12",
+                "servicepack": "",
+                "storage": {
+                    "min_required": ""
+                }
+            }
+        },
+        "description": {
+            "developer": [
+                {
+                    "contact": {
+                        "email": "",
+                        "alternate_email": "",
+                        "mobile_number": "",
+                        "office_number": ""
+                    },
+                    "department": "",
+                    "institute": "",
+                    "name": "",
+                    "organization": "",
+                    "role": "",
+                    "title": "",
+                    "web": ""
+                },
+                {
+                    "contact": {
+                        "alternate_email": "",
+                        "email": "",
+                        "mobile_number": "",
+                        "office_number": ""
+                    },
+                    "department": "",
+                    "institute": "",
+                    "name": "",
+                    "organization": "",
+                    "role": "",
+                    "title": "",
+                    "web": ""
+                }
+            ],
+            "discipline": [
+                ""
+            ],
+            "id": "",
+            "integration_level": 0,
+            "name": "",
+            "server-side": true,
+            "status": "",
+            "type": ""
+        },
+    },
+    "template": "1.0"
+}
