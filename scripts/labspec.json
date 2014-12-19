@@ -1,5 +1,48 @@
 {
     "lab": {
+      "description": {
+            "developer": [
+                {
+                    "contact": {
+                        "email": "",
+                        "alternate_email": "",
+                        "mobile_number": "",
+                        "office_number": ""
+                    },
+                    "department": "",
+                    "institute": "",
+                    "name": "",
+                    "organization": "",
+                    "role": "",
+                    "title": "",
+                    "web": ""
+                },
+                {
+                    "contact": {
+                        "alternate_email": "",
+                        "email": "",
+                        "mobile_number": "",
+                        "office_number": ""
+                    },
+                    "department": "",
+                    "institute": "",
+                    "name": "",
+                    "organization": "",
+                    "role": "",
+                    "title": "",
+                    "web": ""
+                }
+            ],
+            "discipline": [
+                ""
+            ],
+            "id": "",
+            "integration_level": 0,
+            "name": "",
+            "server-side": true,
+            "status": "",
+            "type": ""
+        },
         "build_requirements": {
             "platform": {
                 "arch": "",
@@ -52,50 +95,7 @@
                     "min_required": ""
                 }
             }
-        },
-        "description": {
-            "developer": [
-                {
-                    "contact": {
-                        "email": "",
-                        "alternate_email": "",
-                        "mobile_number": "",
-                        "office_number": ""
-                    },
-                    "department": "",
-                    "institute": "",
-                    "name": "",
-                    "organization": "",
-                    "role": "",
-                    "title": "",
-                    "web": ""
-                },
-                {
-                    "contact": {
-                        "alternate_email": "",
-                        "email": "",
-                        "mobile_number": "",
-                        "office_number": ""
-                    },
-                    "department": "",
-                    "institute": "",
-                    "name": "",
-                    "organization": "",
-                    "role": "",
-                    "title": "",
-                    "web": ""
-                }
-            ],
-            "discipline": [
-                ""
-            ],
-            "id": "",
-            "integration_level": 0,
-            "name": "",
-            "server-side": true,
-            "status": "",
-            "type": ""
-        },
+        }
     },
     "template": "1.0"
 }
