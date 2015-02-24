@@ -1,1 +1,1 @@
-This is a sample template of the directory structure of a Virtual Lab
+This is a sample lab with the new labspec for testing

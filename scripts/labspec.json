@@ -1,77 +1,116 @@
 {
-    "lab": {
-      "description": {
-            "id": "",
-            "name": "",
-            "discipline": [""],
-            "status": "",
-            "type": "",
-            "integration_level": 0,
-            "server-side": true,
-            "developer": [
-                {
-                    "contact": {
-                        "email": "",
-                        "alternate_email": "",
-                        "mobile_number": "",
-                        "office_number": ""
-                    },
-                    "department": "",
-                    "institute": "",
-                    "name": "",
-                    "organization": "",
-                    "role": "",
-                    "title": "",
-                    "web": ""
-                }
-            ]
+  "lab": {
+    "description": {
+      "developer": [
+        {
+          "email_id": "jawahar@iiit.ac.in",
+          "institute": {
+            "id": 1,
+            "name": "IIIT Hyderabad"
+          },
+          "name": "Jawahar C.V"
         },
-        "build_requirements": {
-            "platform": {
-                "arch": "",
-                "build_steps": {
-                    "build": ["make -C ../src"],
-                    "configure": [],
-                    "post_build": [],
-                    "pre_build": [],
-                    "status": []
-                },
-                "installer": [],
-                "os": "ubuntu",
-                "osVersion": "12",
-                "service_pack": ""
-            }
+        {
+          "email": "phani@iiit.ac.in",
+          "institute": {
+            "name": "IIIT Hyderabad",
+            "id": 1
+          },
+          "name": "Phani Phani"
         },
-        "runtime_requirements": {
-            "platform": {
-                "arch": "",
-                "hosting": "",
-                "installer": [""],
-                "lab_actions": {
-                    "backup": [],
-                    "clean": [],
-                    "init": [""],
-                    "pause": [],
-                    "publish": [],
-                    "restore": ["restore"],
-                    "resume": [],
-                    "shutdown": [""],
-                    "start": [""],
-                    "stats": [],
-                    "stop": []
-                },
-                "memory": {
-                    "max_required": "",
-                    "min_required": ""
-                },
-                "os": "ubuntu",
-                "osVersion": "12",
-                "servicepack": "",
-                "storage": {
-                    "min_required": ""
-                }
-            }
+        {
+          "email": "kumarsrijan@students.iiit.ac.in",
+          "institute": {
+            "id": 1,
+            "name": "IIIT Hyderabad"
+          },
+          "name": "Kumar Srijan"
+        },
+        {
+          "email": "jayaguru.pandaug08@students.iiit.ac.in",
+          "institute": {
+            "id": 1,
+            "name": "IIIT Hyderabad"
+          },
+          "name": "Jay Panda"
+        },
+        {
+          "email": "shashank.sharmaug08@students.iiit.ac.in",
+          "institute": {
+            "id": 1,
+            "name": "IIIT Hyderabad"
+          },
+          "name": "Shashank Sharma"
         }
+      ],
+      "discipline": {
+        "id": 1,
+        "name": "Computer Science & Engineering"
+      },
+      "institute": {
+        "id": 1,
+        "name": "IIIT Hyderabad"
+      },
+      "slug": "prog101",
+      "lab_id": "cse01",
+      "integration_level": 5,
+      "name": "Computer Programming",
+      "type": "Simulation"
     },
-    "template": "1.0"
+    "build_requirements": {
+      "platform": {
+        "arch": "i386",
+        "build_steps": {
+          "build": [
+            "make -C ../src"
+          ],
+          "configure": [],
+          "post_build": [],
+          "pre_build": [],
+          "status": []
+        },
+        "installer": [],
+        "os": "ubuntu",
+        "osVersion": "12",
+        "service_pack": ""
+      }
+    },
+    "runtime_requirements": {
+      "platform": {
+        "arch": "i386",
+        "hosting": "dedicated",
+        "installer": [
+          "sudo apt-get update",
+          "sudo apt-get install -y php5 apache2"
+        ],
+        "lab_actions": {
+          "backup": [],
+          "clean": [],
+          "init": [
+            "mv /var/www/index.html index.html.default",
+            "cp -r ../build/* /var/www/"
+          ],
+          "restore": [],
+          "start": [
+            "service apache2 start"
+          ],
+          "stats": [],
+          "stop": [
+            "service apache2 stop"
+          ]
+        },
+        "memory": {
+          "max_required": "2gb",
+          "min_required": "256mb"
+        },
+        "os": "ubuntu",
+        "osVersion": "12",
+        "servicepack": "",
+        "storage": {
+          "min_required": "10gb"
+        }
+      }
+    }
+  },
+  "template": "1.0"
 }
